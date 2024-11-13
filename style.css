@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#2e4053; ;
+}
+#heading{
+    text-align: center;
+    background-color: rgb(44, 17, 70);
+    font-size: 4rem;
+    color: #d5d8dc;
+
+}
+#Displaytime{
+    color:rgb(0, 235, 0);;
+    font-size: 3rem;
+    font-family: monospace;
+    font-weight: 600;
+    display: block;
+    cursor: pointer;
+    text-align: center;
+    background-color: #2e4053;
+    border: #2e4053;
+    justify-content: space-between;
+    /* border: 1px dashed  silver;; */
+    padding : 1rem;
+}
+#Displaytime:hover{
+    content: "Time" ;
+    color: #d5d8dc;
+    font-size: 4rem;
+    cursor: progress;
+
+}
+.continer{
+    box-shadow: 1px 1px 4px 3px;
+    text-align: center;
+    display: block;
+    /* width: fitontent; */
+    /* border: 4px dashed silver; */
+    position: relative;
+    /* background-color: slategrey; */
+}
+.btnContainer{
+    text-align: center;
+    display: block;
+    /* position: relative; */
+    justify-content: center;
+}
+button{
+    /* width: 80px;
+    height: 30px; */
+    cursor: pointer;
+    padding: 1rem;
+    border-radius: 12px;
+    /* flex-wrap: wrap; */
+    margin: 0.5rem;
+    font-size: 2rem;
+    font-weight: 600;
+    color:#d5d8dc ;
+    
+    /* width: fit-content; */
+    /* border: 2px solid silver; */
+    /* text-align: center; */
+    justify-content: space-between;
+    
+
+}
+.startBtn{
+    background-color: rgba(39, 255, 39, 0.699);
+}
+.stopBtn{
+    background-color: rgb(255, 0, 0);
+}
+.resetBtn{
+    background-color: rgba(34, 59, 143, 0.897);
+}
+.startBtn:hover{
+    background-color: rgba(91, 224, 91, 0.952);
+}
+.stopBtn:hover{
+    background-color: rgb(190, 18, 18);
+}
+.resetBtn:hover{
+    background-color: rgba(62, 94, 199, 0.897);
+}
